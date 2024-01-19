@@ -1,0 +1,9 @@
+Case Study: Online Shopping Cart
+
+Imagine you are developing an online shopping cart application. Users can add items to their cart, update quantities, and proceed to checkout. As part of your application, you need to handle various exceptions to ensure a smooth user experience and maintain data integrity.
+
+1. NullPointer Exception Handling:
+
+Scenario: A user clicks the "Checkout" button without adding any items to their cart.
+
+Solution: Implement a check to ensure that the cart is not empty before proceeding with checkout. If the cart is empty, display a user-friendly message like "Your cart is empty. Please add items before checking out."
